@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import List from "./Components/List";
+import Checkout from "./Components/Checkout";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Overzicht van de bestelling</h1>
+      <List itemName={"Aardbei"} price={1.99} brand="Jumbo"></List>
+      <List itemName={"Kaas"} price={2.49} brand="Jumbo"></List>
+      <List itemName={"Apfel"} price={1.99} brand="Jumbo"></List>
+      <List itemName={"Kers"} price={1.99} brand="Jumbo"></List>
+      <Checkout></Checkout>
     </div>
   );
 }
