@@ -1,3 +1,7 @@
+# 🛒 Order Summary Typescript React
+
+⚙️ A simple order summary built using the typescript template for create-react-app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
